@@ -1,12 +1,12 @@
 @font-face {
     font-weight: 400;
     font-family: "EuclidCormorantA Medium";
-    src: url(assets/fonts/EuclidCircularA-Medium.ttf);
+    src: url(../assets/fonts/EuclidCircularA-Medium.ttf);
   }
 @font-face {
     font-weight: 700;
     font-family: "EuclidCormorantA Bold";
-    src: url(assets/fonts/EuclidCircularA-Bold.ttf);
+    src: url(../assets/fonts/EuclidCircularA-Bold.ttf);
   }
 
   @media screen and (max-width: 1280px){
@@ -83,7 +83,7 @@
         font-size: 15px;
     }
     #subcontent_info{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     
 }
@@ -278,6 +278,6 @@ footer > img {
     width: 100%;
 }
 .subcontent_info{
-    font-size: 1vw;
+    font-size: 0.8vw;
     text-align: end;
 }
