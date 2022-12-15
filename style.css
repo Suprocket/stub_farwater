@@ -14,6 +14,9 @@
         margin-bottom: 20px;
         width: 100%;
     }
+    .rightside{
+       padding-left: 50px;
+    }
     #card{
         width: 100%;
         height: 60%;
@@ -27,7 +30,7 @@
   @media screen and (max-width: 700px) {
     .button{
         width: 100%;
-        height: 40%;
+        height: 30%;
     }
     #header{
         margin-bottom: 50px;
@@ -51,12 +54,36 @@
         margin-right: auto; 
         display: contents;
     }
+    #rightside_title{
+        font-size: 3vw;
+        text-align: center;
+    }
     #card{
         height: 20%;
         width: 100%;
     }
     #subcontent_info{
         text-align: center;
+    }
+    #leftside_redirect{
+        font-size: 5vw;
+    }
+    #cardtext_title{
+        font-size: 4vw;
+        margin-bottom: 0px;
+    }
+    #cardtext_info{
+        font-size: 2vw;
+        padding-top: 10px;
+    }
+    #button_design{
+        font-size: 15px;
+    }
+    #button_secondDesign{
+        font-size: 15px;
+    }
+    #subcontent_info{
+        font-size: 3vw;
     }
     
 }
@@ -211,6 +238,9 @@ footer > img {
     min-height: 40px;
     font-size: 2.1vw;
 }
+.rightside_title{
+    font-size: 2vw;
+}
 .rightside_title > a{
     text-decoration: none;
     color: white;
@@ -235,9 +265,6 @@ footer > img {
     display: inline-block;
     font-size: 16px;
     border-radius: 20px;
-}
-.button_redirect{
-    
 }
 .button_design{
     font-size: 24px;
