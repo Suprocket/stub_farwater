@@ -208,12 +208,31 @@ footer > img {
     color: white;
     font-size: 32px;
 }
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
 .leftside{
+    padding-left: 15%;
+}
+.leftside_link{
+    font-size: 36px;
+    font-weight: 400;
+}
+.link_decoration{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+/* .leftside{
     left: 0;
     text-align: center;
     min-width: 300px;
     width: 50%;
-}
+} */
 .leftside_redirect{
     font-size: 2.5vw;
     width: 100%;
